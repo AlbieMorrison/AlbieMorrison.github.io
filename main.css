@@ -1,0 +1,34 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    z-index: 1000;
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    min-height: 500px;
+    margin-bottom: 10px;
+    padding-bottom: -10px;
+    overflow: hidden;
+    background-image: url("./img/development-flowchart.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(9px);
+}
+
+.header-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: var(--bs-body-bg);
+}
